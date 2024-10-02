@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  </head>
+  <body>
+    <!-- Removed h-100 from section and row to avoid restricting height -->
+    <section class="h-custom"> <!-- Removed h-100 -->
+      <div class="container py-5">
+        <!-- Removed h-100 from the row, align-items-start to prevent vertical centering -->
+        <div class="row d-flex justify-content-center align-items-start"> <!-- Removed h-100 -->
+          <div class="col">
+            <div class="card-body p-4">
+              <div class="row">
+                <div class="col-lg-7">
+                  <h5 class="mb-3">
+                    <a href="#!" class="text-body"></a>
+                  </h5>
+                  <hr />
+                  <div class="d-flex justify-content-between align-items-center mb-4">
+                    <div>
+                      <h1 class="mb-3">Shopping Cart</h1>
+                      <h6 class="mb-0">You have 2 items in your cart</h6> <!-- Updated item count -->
+                    </div>
+                  </div>
+                  
+                  <!-- Cart item 1 -->
+                  <div class="card mb-3 bg-light">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                          <div>
+                            <img
+                              src="https://images.squarespace-cdn.com/content/5df111c5e3700a6ab460475c/1628692796425-FLYAGNXA9HBNDBZLO5J3/box.png?content-type=image%2Fpng"
+                              class="img-fluid rounded-3"
+                              alt="Shopping item"
+                              style="width: 65px"
+                            />
+                          </div>
+                          <div class="ms-3">
+                            <h5>Steam Up: A Feast of Dim Sum</h5>
+                            <p class="small mb-0">KTBG</p>
+                          </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center">
+                          <div style="width: 50px">
+                            <h5 class="fw-normal mb-0">1</h5>
+                          </div>
+                          <div style="width: 80px">
+                            <h5 class="mb-0">$60</h5>
+                          </div>
+                          <a href="#!" style="color: #000000"><i class="uil uil-trash-alt"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Cart item 2 -->
+                  <div class="card mb-3 bg-light">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex flex-row align-items-center">
+                          <div>
+                            <img
+                              src="https://cdn.paizo.com/image/product/catalog/PZO/PZO12006-HC.png"
+                              class="img-fluid rounded-3"
+                              alt="Shopping item"
+                              style="width: 65px"
+                            />
+                          </div>
+                          <div class="ms-3">
+                            <h5>Pathfinder RPG: War of Immortals</h5>
+                            <p class="small mb-0">Paizo</p>
+                          </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center">
+                          <div style="width: 50px">
+                            <h5 class="fw-normal mb-0">1</h5>
+                          </div>
+                          <div style="width: 80px">
+                            <h5 class="mb-0">$70</h5>
+                          </div>
+                          <a href="#!" style="color: #000000"><i class="uil uil-trash-alt"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Right column with form and totals -->
+                <div class="col-lg">
+                  <div class="card bg-light text-black rounded-3">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h5 class="mt-1">Personal Information</h5>
+                      </div>
+
+                      <!-- Form fields -->
+                      <div class="row">
+                        <div class="col-md-6">
+                          <input type="text" class="form-control form-control-lg" placeholder="First Name" />
+                        </div>
+                        <div class="col-md-6">
+                          <input type="text" class="form-control form-control-lg" placeholder="Last Name" />
+                        </div>
+                      </div>
+                      <input type="text" class="form-control form-control-lg mt-3" placeholder="Your Email" />
+                      <input type="text" class="form-control form-control-lg mt-3" placeholder="United States" />
+                      <input type="text" class="form-control form-control-lg mt-3" placeholder="Address" />
+
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <input type="text" class="form-control form-control-lg" placeholder="City" />
+                        </div>
+                        <div class="col-md-6">
+                          <input type="text" class="form-control form-control-lg" placeholder="Postcode" />
+                        </div>
+                      </div>
+                      
+                      <!-- Payment information -->
+                      <input type="text" class="form-control form-control-lg mt-3" placeholder="Name on Card" />
+                      <input type="text" class="form-control form-control-lg mt-3" placeholder="Card Number" />
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                          <input type="text" class="form-control form-control-lg" placeholder="MM/YY" />
+                        </div>
+                        <div class="col-md-6">
+                          <input type="text" class="form-control form-control-lg" placeholder="CVV/CVC" />
+                        </div>
+                      </div>
+
+                      <!-- Totals and Checkout button -->
+                      <hr class="my-4">
+                      <div class="d-flex justify-content-between">
+                        <p class="mb-2">Subtotal</p>
+                        <p class="mb-2">$130.00</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="mb-2">Shipping</p>
+                        <p class="mb-2">Free</p>
+                      </div>
+                      <div class="d-flex justify-content-between mb-4">
+                        <p class="mb-2">Total (Incl. taxes)</p>
+                        <p class="mb-2">$141.26</p>
+                      </div>
+                      <button type="button" class="btn btn-info btn-block btn-lg">Checkout</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
