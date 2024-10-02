@@ -10,6 +10,31 @@
   background-color: black !important;
 }
 
+.btn-secondary{
+  background-color: #fff !important;
+  color: black !important;
+  border-radius: 4px;
+  height: 44px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 200ms linear;
+  padding: 0 30px;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  box-shadow: 0 8px 24px 0 rgba(255, 235, 167, 0.2);
+}
+
+.btn-secondary:hover {
+  background-color: black!important;
+  color: #fff!important;
+  box-shadow: 0 8px 24px 0 rgba(16, 39, 112, 0.2);
+}
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
 
 
@@ -282,17 +307,17 @@ input:focus::-webkit-input-placeholder {
   
 }
 
-.card-body1{
+/* .card-body1{
   background-color: rgb(174, 209, 54);
   color: black;
   border-radius: 10px;
-}
+} */
 
-.card-body2{
+/* .card-body2{
   background-color: rgb(255, 246, 133);
   color: black;
   border-radius: 10px;
-}
+} */
 
 .card-body3{
   background-color: rgb(237, 32, 122);
@@ -300,9 +325,6 @@ input:focus::-webkit-input-placeholder {
   border-radius: 10px;
 }
 
-.card-title{
-
-}
 
 
 
