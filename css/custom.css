@@ -304,20 +304,3 @@ input:focus::-webkit-input-placeholder {
   color: white;
 }
 
-.card-body1{
-  background-color: rgb(174, 209, 54);
-  color: black;
-  border-radius: 10px;
-} */
-
- .card-body2{
-  background-color: rgb(255, 246, 133);
-  color: black;
-  border-radius: 10px;
-}
-
-.card-body3 {
-  background-color: rgb(237, 32, 122);
-  color: black;
-  border-radius: 10px;
-}
