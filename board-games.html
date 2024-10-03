@@ -6,14 +6,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
   </head>
   <body>
     <header>
-      <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-        <ul class="nav nav-underline">
-          <li class="nav-item"></li>
-          <a class="nav-link" href="index.html">HOME</a>
-        </li>
+      <nav class="navbar border-bottom border-body" data-bs-theme="dark">
+        <ul class="nav nav-underline ms-4">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="board-games.html">BOARD GAMES</a>
           </li>
@@ -30,10 +31,158 @@
             <a class="nav-link" href="accessories.html">ACCESSORIES</a>
           </li>
         </ul>
-        <div class="d-grid gap-2 d-md-block me-4">
-          <button class="btn btn-primary" type="button">SIGN IN</button>
+        <div class="d-flex align-items-center me-4">
+          <a class="icon-link me-3" href="checkout.html">
+            <i class="uil uil-shopping-cart" style="font-size: 1.8rem; color: white;"></i>
+          </a>
+          <a href="sign-in.html">
+            <button class="btn btn-secondary" type="button">SIGNUP / LOGIN</button>
+          </a>
         </div>
       </nav>
     </header>
+    <div class="d-flex align-items-center flex-column mt-5 pt-5 mb-5">
+      <h1 class="new-header mb-4 pb-5">board games</h1>
+      
+      <!-- First Row of Cards -->
+      <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-center row">
+        <div class="col">
+          <div class="card d-flex align-items-center" style="background-color:#fdb933">
+            <img src="imges/box.png" style="width: 17rem" class="card-img-top im mt-4 mb-5" alt="..." />
+            <div class="card-body" style="color: black">
+              <div class="d-flex flex-row justify-content-between">
+                <h5 class="card-title" style="text-transform: uppercase; font-weight: bold">
+                  Steam Up:<br />A Feast of Dim Sum
+                </h5>
+                <h5 class="ms-4">$60 USD</h5>
+              </div>
+              <p class="card-text">
+                This one-of-a-kind strategy game offers players an immersive cultural experience as they compete to
+                collect Dim Sum while embodying one of the 12 magnificent Chinese Zodiac animals
+              </p>
+            </div>
+            <div>
+              <a href="checkout.html">
+              <button type="button" class="btn btn-secondary btn-sm mb-4 mt-3">Add to Cart</button>
+            </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card d-flex align-items-center" style="background-color:#fdb933">
+            <img src="https://cdn.shopify.com/s/files/1/0356/9149/5559/files/Catan_2_resized_480x480.png?v=1658243728"
+              style="width: 17.5rem" class="card-img-top im mt-4 mb-5" alt="..." />
+            <div class="card-body" style="color: black">
+              <div class="d-flex flex-row justify-content-between">
+                <h5 class="card-title" style="text-transform: uppercase; font-weight: bold">
+                  Catan 5E<br />25th anniversary edition
+                </h5>
+                <h5 class="ms-4">$55 USD</h5>
+              </div>
+              <p class="card-text">
+                Trade. Build. Settle.<br />In The Settlers of Catan, players try to be the dominant force on the island
+                of Catan by building settlements, cities, and roads.
+              </p>
+            </div>
+            <div>
+              <button type="button" class="btn btn-secondary btn-sm mb-4 mt-3">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card d-flex align-items-center" style="background-color:#fdb933">
+            <img src="imges/box.png" style="width: 17rem" class="card-img-top im mt-4 mb-5" alt="Game Box Image" />
+            <div class="card-body" style="color: black">
+              <div class="d-flex flex-row justify-content-between">
+                <h5 class="card-title" style="text-transform: uppercase; font-weight: bold">
+                  Pathfinder RPG<br />War of Immortals
+                </h5>
+                <h5 class="ms-4">$70 USD</h5>
+              </div>
+              <p class="card-text">
+                A god has been slain and nothing shall ever be the same again! As war and destruction spread across the
+                world, new heroes must rise to the occasion and take arms to protect its mortal inhabitants.
+              </p>
+            </div>
+            <div>
+              <button type="button" class="btn btn-secondary btn-sm mb-4 mt-3">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Second Row of Cards with space above (mt-5) -->
+      <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-center row mt-5">
+        <div class="col">
+          <div class="card d-flex align-items-center" style="background-color:#fdb933">
+            <img src="imges/box.png" style="width: 17rem" class="card-img-top im mt-4 mb-5" alt="..." />
+            <div class="card-body" style="color: black">
+              <div class="d-flex flex-row justify-content-between">
+                <h5 class="card-title" style="text-transform: uppercase; font-weight: bold">
+                  Steam Up:<br />A Feast of Dim Sum
+                </h5>
+                <h5 class="ms-4">$60 USD</h5>
+              </div>
+              <p class="card-text">
+                This one-of-a-kind strategy game offers players an immersive cultural experience as they compete to
+                collect Dim Sum while embodying one of the 12 magnificent Chinese Zodiac animals
+              </p>
+            </div>
+            <div>
+              <button type="button" class="btn btn-secondary btn-sm mb-4 mt-3">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card d-flex align-items-center" style="background-color:#fdb933">
+            <img src="https://cdn.shopify.com/s/files/1/0356/9149/5559/files/Catan_2_resized_480x480.png?v=1658243728"
+              style="width: 17.5rem" class="card-img-top im mt-4 mb-5" alt="..." />
+            <div class="card-body" style="color: black">
+              <div class="d-flex flex-row justify-content-between">
+                <h5 class="card-title" style="text-transform: uppercase; font-weight: bold">
+                  Catan 5E<br />25th anniversary edition
+                </h5>
+                <h5 class="ms-4">$55 USD</h5>
+              </div>
+              <p class="card-text">
+                Trade. Build. Settle.<br />In The Settlers of Catan, players try to be the dominant force on the island
+                of Catan by building settlements, cities, and roads.
+              </p>
+            </div>
+            <div>
+              <button type="button" class="btn btn-secondary btn-sm mb-4 mt-3">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card d-flex align-items-center" style="background-color:#fdb933">
+            <img src="imges/box.png" style="width: 17rem" class="card-img-top im mt-4 mb-5" alt="Game Box Image" />
+            <div class="card-body" style="color: black">
+              <div class="d-flex flex-row justify-content-between">
+                <h5 class="card-title" style="text-transform: uppercase; font-weight: bold">
+                  Pathfinder RPG<br />War of Immortals
+                </h5>
+                <h5 class="ms-4">$70 USD</h5>
+              </div>
+              <p class="card-text">
+                A god has been slain and nothing shall ever be the same again! As war and destruction spread across the
+                world, new heroes must rise to the occasion and take arms to protect its mortal inhabitants.
+              </p>
+            </div>
+            <div>
+              <button type="button" class="btn btn-secondary btn-sm mb-4 mt-3">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="container"></footer>
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>© Yaritza Bustamante, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
   </body>
 </html>
