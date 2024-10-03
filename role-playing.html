@@ -6,14 +6,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
   </head>
   <body>
     <header>
-      <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-        <ul class="nav nav-underline">
-          <li class="nav-item"></li>
-          <a class="nav-link" href="index.html">HOME</a>
-        </li>
+      <nav class="navbar border-bottom border-body" data-bs-theme="dark">
+        <ul class="nav nav-underline ms-4">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="board-games.html">BOARD GAMES</a>
           </li>
@@ -30,8 +31,13 @@
             <a class="nav-link" href="accessories.html">ACCESSORIES</a>
           </li>
         </ul>
-        <div class="d-grid gap-2 d-md-block me-4">
-          <button class="btn btn-primary" type="button">SIGN IN</button>
+        <div class="d-flex align-items-center me-4">
+          <a class="icon-link me-3" href="checkout.html">
+            <i class="uil uil-shopping-cart" style="font-size: 1.8rem; color: white;"></i>
+          </a>
+          <a href="sign-in.html">
+            <button class="btn btn-secondary" type="button">SIGNUP / LOGIN</button>
+          </a>
         </div>
       </nav>
     </header>
